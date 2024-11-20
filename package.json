@@ -1,12 +1,13 @@
 {
   "name": "@-/nitrogen",
   "author": "sxsx欧克 <wo@jishu.xin>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/cjs/index.js",
   "types": "dist/cjs/index.d.ts",
   "scripts": {
     "dev": "father dev",
-    "build": "father build"
+    "build": "father build",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "authors": {
